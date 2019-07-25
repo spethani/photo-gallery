@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #F7F7F2;
+}
+.navbar {
+  background-color: #899878;
+  color: #222725;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+}
+.images {
+  padding-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+img {
+  width: 30%;
+  height: 500px;
+  object-fit: cover;
+  margin: 15px;
+  border: 3px dashed #E4E6C3;
+}
+
+@media only screen and (max-device-with: 768px) {
+  img {
+    width: 10%;
+    height: 100px;
+    margin: 15px;
+  }
+}
+@media only screen and (max-device-with: 480px) {
+
+}
